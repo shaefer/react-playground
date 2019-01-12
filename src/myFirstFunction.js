@@ -11,7 +11,8 @@ window.onload = function()
     {
         render()
         {
-            return React.createElement('h1', null, 'Greetings, ' + this.props.name + '!');
+            //return React.createElement('h1', null, 'Greetings, ' + this.props.name + '!');
+            return <h1>Greetings {this.props.name}!</h1>
         }
     }
     ReactDOM.render(
